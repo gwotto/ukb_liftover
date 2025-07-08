@@ -1,0 +1,128 @@
+#
+see https://github.com/dnanexus/UKB_RAP/tree/main/end_to_end_gwas_phewas/liftover_plink_beds_tmp
+
+* environment
+
+- plink installed in conda environment py3
+
+* test data
+
+- APOE region in GRCh37
+
+19:45409011-45412650 
+
+
+- extract apoe range
+
+  : plink --bfile data/ukb22418_c19_b0_v2 --extract range data/apoe-region.txt --make-bed --out data/apoe-region
+
+  : plink --bfile data/ukb22418_c20_b0_v2 --extract range data/bmp2-region.txt --make-bed --out data/bmp2-region
+
+* wdl
+
+: java -jar ~/opt/cromwell-85.jar run ./liftover_plink_beds-test.wdl --inputs ./liftover_input_template-test.json
+
+* reference genome
+
+  : project-GBpqxg0JXPfF3kKG4j14k75k:/Bulk/Exome sequences/Exome OQFE CRAM files/helper_files/GRCh38_full_analysis_set_plus_decoy_hla.fa
+
+
+* compile wdl and run
+
+  : java -jar ~/opt/dxCompiler-2.11.0.jar compile liftover_plink_beds.wdl -folder /georg/blood-pressure/wdl -inputs liftover_plink_beds_input.wdl
+
+  : dx run /georg/blood-pressure/wdl/liftover_plink_beds -f liftover_plink_beds_input.dx.json
+
+
+* workflow graph
+
+: java -jar ~/opt/womtool-85.jar graph liftover_plink_beds.wdl
+
+* rerun liftover for project 22102
+
+** compile wdl and run
+
+  : java -jar ~/opt/dxCompiler-2.11.6.jar compile project-22102/liftover_plink_beds.wdl -project project-Ggj3KJ0J219x7gk2VpJ44V7G -folder /georg/workflows -inputs project-22102/liftover_plink_beds_input.json
+
+
+  - how to specify output folder?
+  : dx run /georg/workflows/liftover_plink_beds  -f project-22102/liftover_plink_beds_input.dx.json
+
+
+  - merged output
+    ukb_GRCh38_full_analysis_set_plus_decoy_hla_merged
+
+    
+* check liftover genotype data
+
+#+begin_src bash
+
+# ukb22418_c22_b0_v2_GRCh38_full_analysis_set_plus_decoy_hla.bim
+# 12921 lines
+
+dx run app-swiss-army-knife \
+-iin=project-GBpqxg0JXPfF3kKG4j14k75k:file-GQKVkG0J449V6p4j64gZ3Kj4 \
+-icmd="wc ukb22418_c22_b0_v2_GRCh38_full_analysis_set_plus_decoy_hla.bim > wc-output-1.txt"
+
+dx cat  wc-output-1.txt
+
+# ukb_c22_GRCh38_full_analysis_set_plus_decoy_hla.bim
+# 12917 lines
+
+dx run app-swiss-army-knife \
+-iin=project-GBpqxg0JXPfF3kKG4j14k75k:file-GQKxFbjJzp8zz3f2gV30Yj5q \
+-icmd="wc ukb_c22_GRCh38_full_analysis_set_plus_decoy_hla.bim > wc-output-2.txt"
+
+
+# ukb22418_c22_b0_v2.bim
+# 12968 lines
+dx run app-swiss-army-knife \
+-iin=project-GBpqxg0JXPfF3kKG4j14k75k:file-FxXZxkjJkF641JG196p7ggbF \
+-icmd="wc ukb22418_c22_b0_v2.bim > wc-output-3.txt"
+
+
+## X,Y,MT not in merged liftover
+
+dx cat georg/liftOver/ukb_GRCh38_full_analysis_set_plus_decoy_hla_merged.bim | cut -f 1 | sort -u 
+
+
+#+end_src
+
+
+
+
+- liftover and merge steps
+
+  + ukb22418_c22_b0_v2.bim
+
+    : dx head /Bulk/Genotype\ Results/Genotype\ calls/ukb22418_c22_b0_v2.bim
+
+    - original file
+  
+  + ukb22418_c<i>_b0_v2_GRCh38_full_analysis_set_plus_decoy_hla.bim
+
+    : dx head ressources/liftover/ukb22418_c22_b0_v2_GRCh38_full_analysis_set_plus_decoy_hla.bim
+
+    - liftover, then converted from vcf to plink format using
+      --ref-allele force
+      --alt1-allele force
+      wich modifies (strand corrects?) some ref and alt alleles
+
+  + ukb_GRCh38_full_analysis_set_plus_decoy_hla_merged.bim
+
+    : dx cat ressources/liftover/ukb_GRCh38_full_analysis_set_plus_decoy_hla_merged.bim | grep "^22" | head
+
+    - plink merge of files, some ref and alt alleles get swapped
+
+  + ukb_c1-22_GRCh38_full_analysis_set_plus_decoy_hla_merged.bim
+
+    : dx cat ressources/liftover/ukb_c1-22_GRCh38_full_analysis_set_plus_decoy_hla_merged.bim | grep "^22" | head
+      
+    - plink mege of files, chr 1-22
+
+  + ukb_c22_GRCh38_full_analysis_set_plus_decoy_hla.bim
+    
+    : dx head ressources/liftover/ukb_c22_GRCh38_full_analysis_set_plus_decoy_hla.bim
+
+    - split of merged plink files
+

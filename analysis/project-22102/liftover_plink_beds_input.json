@@ -1,0 +1,100 @@
+{
+    "liftover_plink_beds.plink_beds": [
+
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZzV0JkF65g2vX9Vx8jkkZ",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb030JkF6GbKYb9VP89bpf",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb0X0JkF6JV6g0Pp0gvZq8",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb0y8JkF67pkJx13BV0J7G",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb1F0JkF68b43G0pf356x6",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb1bjJkF6B6F1Z9VYv7fxv",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb238JkF6GX0PQ9VB1Gqjv",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb2JjJkF6BxKfyJYkyFFKQ",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb2j0JkF6B5yVBPkVvV376",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb30QJkF641JG196p7gj6B",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb390JkF67KVkZPpF2PYz9",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb3b0JkF60ZXbP9Vkf47b2",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb3y0JkF62xzjX7vv52ZyG",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb45jJkF64ZZKv1B2V675y",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb4K0JkF68b43G0pf3574X",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb4f8JkF6JV6g0Pp0gvb8Q",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb4x0JkF6B6F1Z9VYv7gG6",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb54QJkF6JV6g0Pp0gvb9p",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb5BjJkF6GbX1619P5YFVb",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb5VjJkF6BxKfyJYkyFFzB",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb5fjJkF6K07FF9X4Q2PG0",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb5pQJkF6PpqqK0p2gZzv1",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb5xjJkF6PpqqK0p2gZzvF",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb630JkF6B5yVBPkVvV3fk",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb62QJkF6GbX1619P5YFZ0",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXb648JkF67GV2z7v5ZqGy9"
+    ],
+    
+    "liftover_plink_beds.plink_bims": [
+
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxjQJkF636yj326QqXPV5",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxp8JkF67GV2z7v5ZqFzZ",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxpQJkF69vjv312xj39xz",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxq0JkF65bZBj13QpBZFZ",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxq8JkF61JXY78Y2xp2Z6",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxqjJkF6PpqqK0p2gZxvb",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxv8JkF6457pxPkfgJ60Y",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxvQJkF67Z48f0pjq53Q8",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxx0JkF6BXzY51BBbz1f9",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxZjJkF64ZZKv1B2V667F",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxb0JkF69X2FQ19v6jXVQ",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxbQJkF6G2F900kkp0YY4",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxbjJkF6GbX1619P5YBj9",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxf8JkF6BXzY51BBbz1bG",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxfjJkF67Z48f0pjq53PG",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxg0JkF68b43G0pf356Y0",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxgQJkF66qV4X0p7KBgJG",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxgjJkF6B6gJg1B6qXGjf",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxj8JkF6B0kfB44f4PpVK",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxk0JkF6GbKYb9VP89bYB",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxk8JkF67GV2z7v5ZqFzQ",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxkjJkF641JG196p7ggbF",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxxjJkF6BXzY51BBbz1fF",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxy0JkF69X2FQ19v6jXYK",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxyQJkF65yFp8PpVgGbGk",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-FxXZxx8JkF6JV6g0Pp0gvZV3"
+	
+  ],
+
+    "liftover_plink_beds.plink_fams": [
+
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj965QJjYj4K0F45qV0BzYv",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj9418JjYj2gYyQ5xQPxzkq",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj93f0JjYjP97jzfX9gx0Vz",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj93jjJjYj43vbxKx6PjJzQ",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj93qjJjYjBBx3yP7YPv0yg",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj93QQJjYjKfB9k3QxBVg60",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj93Y0JjYj37Y5X3QYkGqZY",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj9350JjYj48fFq2jFvB65X",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj9388JjYjP97jzfX9gx0J9",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj9718JjYj5JKGV137FyJ59",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj96PQJjYj2Bbgx7J1Zq0Yf",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj96VjJjYj3KPV0QvVZ4q6J",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj96Z0JjYj1jbf7q7ZGZJQx",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj96fQJjYj1jbf7q7ZGZJV2",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj968QJjYj1jbf7q7ZGZJKK",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj96BjJjYj5kYxvbBVY8ZVz",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj96J8JjYjKkFpj6xgfk8kX",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj9608JjYjBBx3yP7YPv1Bb",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj962jJjYjF7b9j1V1jJk45",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj9440JjYj0F9QB8P1Jgzq9",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj946jJjYj75BkFjF59275p",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj93yQJjYj63v5Bj4j0gjgG",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj93JjJjYj2Bbgx7J1Zq04G",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj9910JjYj4kxYjXf9Bqv2z",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj993jJjYj4kxYjXf9Bqv3f",
+	"dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-Ggj93F0JjYjGFgf6Ppp8PJJ8"
+
+    ],
+
+
+    
+    "liftover_plink_beds.ucsc_chain": "dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:/georg/liftOver/b37ToHg38.over.chain",
+    "liftover_plink_beds.reference_fastagz": "dx://project-Ggj3KJ0J219x7gk2VpJ44V7G:file-G572Pj8JykJZ52BP4z6GqB21",
+    "liftover_plink_beds.split_par_build_code": "hg38"
+
+}

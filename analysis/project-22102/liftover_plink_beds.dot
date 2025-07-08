@@ -1,0 +1,17 @@
+digraph liftover_plink_beds {
+  #rankdir=LR;
+  compound=true;
+
+  # Links
+  SCATTER_0_VARIABLE_plink_bed -> CALL_picard_liftovervcf
+  CALL_picard_liftovervcf -> CALL_merge_and_split_by_chr
+
+  # Nodes
+  subgraph cluster_0 {
+    style="filled,solid";
+    fillcolor=white;
+    CALL_picard_liftovervcf [label="call picard_liftovervcf"]
+    SCATTER_0_VARIABLE_plink_bed [shape="hexagon" label="scatter over File as plink_bed"]
+  }
+  CALL_merge_and_split_by_chr [label="call merge_and_split_by_chr"]
+}

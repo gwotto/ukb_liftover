@@ -1,0 +1,71 @@
+ID                          file-FxXZxjQJkF636yj326QqXPV5
+Name                        ukb22418_c1_b0_v2.bim
+
+ID                          file-FxXZxp8JkF67GV2z7v5ZqFzZ
+Name                        ukb22418_c2_b0_v2.bim
+
+ID                          file-FxXZxpQJkF69vjv312xj39xz
+Name                        ukb22418_c3_b0_v2.bim
+
+ID                          file-FxXZxq0JkF65bZBj13QpBZFZ
+Name                        ukb22418_c4_b0_v2.bim
+
+ID                          file-FxXZxq8JkF61JXY78Y2xp2Z6
+Name                        ukb22418_c5_b0_v2.bim
+
+ID                          file-FxXZxqjJkF6PpqqK0p2gZxvb
+Name                        ukb22418_c6_b0_v2.bim
+
+ID                          file-FxXZxv8JkF6457pxPkfgJ60Y
+Name                        ukb22418_c7_b0_v2.bim
+
+ID                          file-FxXZxvQJkF67Z48f0pjq53Q8
+Name                        ukb22418_c8_b0_v2.bim
+
+ID                          file-FxXZxx0JkF6BXzY51BBbz1f9
+Name                        ukb22418_c9_b0_v2.bim
+
+ID                          file-FxXZxZjJkF64ZZKv1B2V667F
+Name                        ukb22418_c10_b0_v2.bim
+
+ID                          file-FxXZxb0JkF69X2FQ19v6jXVQ
+Name                        ukb22418_c11_b0_v2.bim
+
+ID                          file-FxXZxbQJkF6G2F900kkp0YY4
+Name                        ukb22418_c12_b0_v2.bim
+
+ID                          file-FxXZxbjJkF6GbX1619P5YBj9
+Name                        ukb22418_c13_b0_v2.bim
+
+ID                          file-FxXZxf8JkF6BXzY51BBbz1bG
+Name                        ukb22418_c14_b0_v2.bim
+
+ID                          file-FxXZxfjJkF67Z48f0pjq53PG
+Name                        ukb22418_c15_b0_v2.bim
+
+ID                          file-FxXZxg0JkF68b43G0pf356Y0
+Name                        ukb22418_c16_b0_v2.bim
+
+ID                          file-FxXZxgQJkF66qV4X0p7KBgJG
+Name                        ukb22418_c17_b0_v2.bim
+
+ID                          file-FxXZxgjJkF6B6gJg1B6qXGjf
+Name                        ukb22418_c18_b0_v2.bim
+
+ID                          file-FxXZxj8JkF6B0kfB44f4PpVK
+Name                        ukb22418_c19_b0_v2.bim
+
+ID                          file-FxXZxk0JkF6GbKYb9VP89bYB
+Name                        ukb22418_c20_b0_v2.bim
+
+ID                          file-FxXZxk8JkF67GV2z7v5ZqFzQ
+Name                        ukb22418_c21_b0_v2.bim
+
+ID                          file-FxXZxkjJkF641JG196p7ggbF
+Name                        ukb22418_c22_b0_v2.bim
+
+
+
+
+
+

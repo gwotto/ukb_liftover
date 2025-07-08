@@ -1,0 +1,66 @@
+ID                          file-FxXZzV0JkF65g2vX9Vx8jkkZ
+Name                        ukb22418_c1_b0_v2.bed
+
+
+ID                          file-FxXb030JkF6GbKYb9VP89bpf
+Name                        ukb22418_c2_b0_v2.bed
+
+ID                          file-FxXb0X0JkF6JV6g0Pp0gvZq8
+Name                        ukb22418_c3_b0_v2.bed
+
+ID                          file-FxXb0y8JkF67pkJx13BV0J7G
+Name                        ukb22418_c4_b0_v2.bed
+
+ID                          file-FxXb1F0JkF68b43G0pf356x6
+Name                        ukb22418_c5_b0_v2.bed
+
+ID                          file-FxXb1bjJkF6B6F1Z9VYv7fxv
+Name                        ukb22418_c6_b0_v2.bed
+
+ID                          file-FxXb238JkF6GX0PQ9VB1Gqjv
+Name                        ukb22418_c7_b0_v2.bed
+
+ID                          file-FxXb2JjJkF6BxKfyJYkyFFKQ
+Name                        ukb22418_c8_b0_v2.bed
+
+ID                          file-FxXb2j0JkF6B5yVBPkVvV376
+Name                        ukb22418_c9_b0_v2.bed
+
+ID                          file-FxXb30QJkF641JG196p7gj6B
+Name                        ukb22418_c10_b0_v2.bed
+
+ID                          file-FxXb390JkF67KVkZPpF2PYz9
+Name                        ukb22418_c11_b0_v2.bed
+
+ID                          file-FxXb3b0JkF60ZXbP9Vkf47b2
+Name                        ukb22418_c12_b0_v2.bed
+
+ID                          file-FxXb3y0JkF62xzjX7vv52ZyG
+Name                        ukb22418_c13_b0_v2.bed
+
+ID                          file-FxXb45jJkF64ZZKv1B2V675y
+Name                        ukb22418_c14_b0_v2.bed
+
+ID                          file-FxXb4K0JkF68b43G0pf3574X
+Name                        ukb22418_c15_b0_v2.bed
+
+ID                          file-FxXb4f8JkF6JV6g0Pp0gvb8Q
+Name                        ukb22418_c16_b0_v2.bed
+
+ID                          file-FxXb4x0JkF6B6F1Z9VYv7gG6
+Name                        ukb22418_c17_b0_v2.bed
+
+ID                          file-FxXb54QJkF6JV6g0Pp0gvb9p
+Name                        ukb22418_c18_b0_v2.bed
+
+ID                          file-FxXb5BjJkF6GbX1619P5YFVb
+Name                        ukb22418_c19_b0_v2.bed
+
+ID                          file-FxXb5VjJkF6BxKfyJYkyFFzB
+Name                        ukb22418_c20_b0_v2.bed
+
+ID                          file-FxXb5fjJkF6K07FF9X4Q2PG0
+Name                        ukb22418_c21_b0_v2.bed
+
+ID                          file-FxXb5pQJkF6PpqqK0p2gZzv1
+Name                        ukb22418_c22_b0_v2.bed

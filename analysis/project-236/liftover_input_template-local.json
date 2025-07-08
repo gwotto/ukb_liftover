@@ -1,0 +1,18 @@
+{
+    "liftover_plink_beds.plink_beds": [
+	"/home/gotto/project/ukb-liftover/data/apoe-region.bed",
+	"/home/gotto/project/ukb-liftover/data/bmp2-region.bed"
+  ],
+    "liftover_plink_beds.plink_bims": [
+	"/home/gotto/project/ukb-liftover/data/apoe-region.bim",
+	"/home/gotto/project/ukb-liftover/data/bmp2-region.bim"
+  ],
+    "liftover_plink_beds.plink_fams": [
+	"/home/gotto/project/ukb-liftover/data/apoe-region.fam",
+	"/home/gotto/project/ukb-liftover/data/bmp2-region.fam"
+    ],
+    "liftover_plink_beds.ucsc_chain": "/home/gotto/project/ukb-liftover/data/b37ToHg38.over.chain",
+    "liftover_plink_beds.reference_fastagz": "/home/gotto/project/ukb-liftover/data/GCA_000001405.15_GRCh38_full_analysis_set.fna",
+    "liftover_plink_beds.split_par_build_code": "hg38"
+
+}
